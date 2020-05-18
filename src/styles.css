@@ -1,0 +1,214 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* header / footer */
+#header,
+#footer {
+    border-radius: 0px;
+    border: none;
+    background: rgb(255,95,5);
+    background: linear-gradient(0deg, rgba(255,95,5,1) 0%, rgba(255,130,63,1) 50%, rgba(255,95,5,1) 100%);
+}
+
+#footer {
+    position: absolute;
+    padding: 10px 15px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #222222;
+    color: rgb(245, 245, 245);  
+    display: table-cell;
+    text-align: right;
+}
+
+#header .navbar-nav > li > a {
+    color: rgb(245, 245, 245); 
+}     
+
+#header .navbar-nav > li > a:hover, 
+#header .navbar-nav > li > a:focus {
+    color: rgb(0, 0, 0); 
+}
+
+/* Error Page */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#error-page {
+  position: relative;
+  height: 100vh;
+}
+
+#error-page .error-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.error-content {
+  max-width: 520px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.error-content .error-nr {
+  position: relative;
+  height: 200px;
+  margin: 0px auto 20px;
+  z-index: -1;
+}
+
+.error-content .error-nr h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 236px;
+  font-weight: 200;
+  margin: 0px;
+  color: #211b19;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.error-content .error-nr h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #211b19;
+  background: #fff;
+  padding: 10px 5px;
+  margin: auto;
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .error-content .error-nr h1 {
+    font-size: 148px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .error-content .error-nr {
+    height: 148px;
+    margin: 0px auto 10px;
+  }
+  .error-content .error-nr h1 {
+    font-size: 86px;
+  }
+  .error-content .error-nr h2 {
+    font-size: 16px;
+  }
+}
+
+/* menu button */
+/*
+#menu {
+  background-color: red; 
+  height: 40px;
+  margin: 0px;
+}
+
+#menu ul {
+  margin-right: 5px;
+  padding: 0px;
+  float: right;
+}
+
+#menu ul li {
+  margin-left: 5px;
+  list-style: none;
+//  background-color: lightgray; 
+//  border: black 1px solid; 
+  display: inline-block;
+//  width: 150px; 
+  float: left;
+}
+
+#menu .button {
+  display: inline-block;
+  border: rgb(179, 179, 179) 1px solid
+}
+
+#menu .button .image {
+  float: left;
+  border-right: rgb(84, 84, 84) 1px solid; 
+  background-color: rgb(230, 230, 230);
+}
+
+#menu .button a {
+  display: inline-block;
+  padding-right: 5px;
+  background-color: rgb(230, 230, 230);
+  color: #000000;
+}
+
+#menu .button a:hover {
+  text-decoration: none;
+  background-color: rgb(230, 230, 230);
+  color: rgb(100, 100, 100);
+}
+
+#menu .button .image {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+#menu .button .image img {
+  width: 16px;        
+  height: 16px;
+}
+
+.clear {
+  clear: both;
+}
+
+// info 
+.info {
+  margin: 5px;
+  padding: 5px;
+  width: 400px;
+  background-color: rgb(190, 190, 190);
+  border: rgb(170, 170, 170) 1px solid;
+}
+
+// adjust form inputs 
+input[type="checkbox"] {
+  margin-top: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  border: 2px solid rgb(204, 204, 204);
+  background-color: #fff;
+  display: block;
+  content: "";
+  float: left;
+}
+
+.required {
+  color: rgb(255, 0, 0);
+}
+*/
+
