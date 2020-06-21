@@ -1,4 +1,8 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
+TODO.txt
+# only for testing
+/src/app/halloworld
+/src/app/service
 
 # compiled output
 /dist

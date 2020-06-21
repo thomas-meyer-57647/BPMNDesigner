@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "BPMNDesigner"
+    }
+  },
+  "defaultProject": "BPMNDesigner",
+  "cli": {
+    "analytics": false
+  }
 }
