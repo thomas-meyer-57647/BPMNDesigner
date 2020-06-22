@@ -1,9 +1,12 @@
-body {
+html, body {
     padding: 0;
     margin: 0;
+    height: 100%;
+    width: 100%;
 }
 
 /* header / footer */
+/*
 #header,
 #footer {
     border-radius: 0px;
@@ -32,8 +35,9 @@ body {
 #header .navbar-nav > li > a:focus {
     color: rgb(0, 0, 0); 
 }
-
+*/
 /* Error Page */
+/*
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -121,7 +125,7 @@ body {
     font-size: 16px;
   }
 }
-
+*/
 /* menu button */
 /*
 #menu {

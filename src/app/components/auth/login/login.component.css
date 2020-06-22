@@ -1,61 +1,72 @@
-
-/*
-.card {
-    background-color: rgb(161, 161, 161);
-    width: 400px;
-    height: 360px;
-}
-*/
-/*
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
-.card{
-    width: 400px;
+html,body {
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+
+.container {
+    height: 100%;
+    align-content: center;
+}
+
+.card {
     height: 370px;
-    margin-top: 100px;
-    background-color: rgba(0, 0, 0, 0.35) !important;
-    border: 1px solid #d1a220;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
 }
 
-.social_icon span{
-    font-size: 60px;
-    margin-left: 10px;
-    color: #d1a220;
-}
-
-.social_icon span:hover{
-    color: white;
-    cursor: pointer;
-}
-
-.card-header h3{
-    color: white;
-}
-
-.social_icon{
+.social_icon {
     position: absolute;
     right: 20px;
     top: -45px;
 }
 
-.input-group-prepend span{
+.social_icon span {
+    font-size: 60px;
+    margin-left: 10px;
+    color: #d1a220;
+}
+
+.social_icon span:hover {
+    color: hsl(44, 94%, 50%);
+    cursor: pointer;
+}
+
+.social_icon span i {
+    background-color: black;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 15%;
+}
+
+.card-header h3 {
+    color: white;
+}
+
+.input-group-prepend span {
     width: 50px;
     background-color: #d1a220;
     color: black;
     border:0 !important;
 }
 
-input:focus{
+input:focus {
     outline: 0 0 0 0  !important;
     box-shadow: 0 0 0 0 !important;
 }
 
-.remember{
+.remember {
     color: white;
 }
 
-.remember input
-{
+.remember input {
     width: 20px;
     height: 20px;
     margin-left: 15px;
@@ -70,7 +81,7 @@ input:focus{
 
 .login_btn:hover{
     color: black;
-    background-color: rgb(0, 0, 0);
+    background-color: white;
 }
 
 .links{
@@ -80,4 +91,11 @@ input:focus{
 .links a{
     margin-left: 4px;
 }
-*/
+
+.errorview {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 5px;
+}

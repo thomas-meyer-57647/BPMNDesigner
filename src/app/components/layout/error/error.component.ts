@@ -7,8 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ErrorComponent implements OnInit {
 
-  errorMessage = 'An Error Occured! Contact Support at *** - ***'
-  
+  errorNumber: string = '404';
+  errorMessage: string = 'Page not found';
+  backLinkText: string = 'Go to Designer';
+
   constructor() { }
 
   ngOnInit(): void {

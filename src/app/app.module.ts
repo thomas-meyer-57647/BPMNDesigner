@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -8,7 +9,6 @@ import { FooterComponent } from './components/layout/footer/footer.component';
 import { HeaderComponent } from './components/layout/header/header.component';
 import { CanvasComponent } from './components/canvas/canvas.component';
 import { HalloworldComponent } from './halloworld/halloworld.component';
-import { HttpClientModule } from '@angular/common/http';
 import { ErrorComponent } from './components/layout/error/error.component';
 import { LoginComponent } from './components/auth/login/login.component';
 import { MainComponent } from './components/layout/main/main.component';
@@ -27,8 +27,8 @@ import { MainComponent } from './components/layout/main/main.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

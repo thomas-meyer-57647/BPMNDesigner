@@ -1,4 +1,15 @@
-#canvas {
-    width: max-content;
-    height: max-content;
+#header {
+    border-radius: 0px;
+    border: none;
+    background: #d1a220;
+    background: linear-gradient(0deg, #B28A1C 0%, #d1a220 50%, #B28A1C 100%);
+}
+
+#header .navbar-nav > li > a {
+    color: rgb(245, 245, 245); 
+}     
+
+#header .navbar-nav > li > a:hover, 
+#header .navbar-nav > li > a:focus {
+    color: rgb(0, 0, 0); 
 }

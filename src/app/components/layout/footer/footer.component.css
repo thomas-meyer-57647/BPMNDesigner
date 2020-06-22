@@ -1,0 +1,16 @@
+#footer {
+    border-radius: 0px;
+    border: none;
+    background: #d1a220;
+    background: linear-gradient(0deg, #B28A1C 0%, #d1a220 50%, #B28A1C 100%);
+    position: absolute;
+    padding: 10px 15px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #222222;
+    color: rgb(245, 245, 245);  
+    display: table-cell;
+    text-align: right;
+}
+

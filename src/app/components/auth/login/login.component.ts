@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { AuthService } from 'src/app/service/auth.service';
 
 @Component({
   selector: 'app-login',
@@ -11,20 +13,21 @@ export class LoginComponent implements OnInit {
   password: string;
   loggedIn: boolean = false;
   showErrorMsg: boolean = false;
-  errorMsg: string = "Input not correct";
+  errorMsg: string = "Username or Password invalid";
   
-  constructor() { }
+  constructor(private auth: AuthService, private router: Router) { }
 
   ngOnInit(): void {
   }
 
   /**
-   * login the app
+   * log in the app
    */
   doLogin() {
-    if ( this.username == "thomas" && this.password == "meyer" ) {
+    if ( this.auth.authenticate(this.username, this.password) ) {
       this.loggedIn = true;
       this.showErrorMsg = false;
+      this.router.navigate(['']);
     } else {
       this.loggedIn = false;
       this.showErrorMsg = true;
